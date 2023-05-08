@@ -1,0 +1,71 @@
+.setting-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.active-setting{
+    background: #3065B5;
+    color: white;
+}
+.setting-section > div:nth-child(1){
+    border: 1px solid  #3065B5;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.setting-section > div:nth-child(2){
+    border: 1px solid  #3065B5;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+.setting-section > div:nth-child(3){
+    border: 1px solid  #3065B5;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.card-setting{
+    padding: 6px 0px;
+}
+.profile-setting-items{
+    padding: 5px;
+    margin-top: 10px;
+}
+.image-prof{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.profile-details{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.profile-details > div{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: gray;
+}
+.hr-style{
+    color:rgba(128, 128, 128, 0.568) !important;
+}
+.form-group{
+    margin: 10px 0px;
+}
+.form-control{
+    padding: 10px;
+    font-size: 13px;
+}
+.password-btn{
+    background: #3065B5;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+
+}
+.profile-details-section{
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+

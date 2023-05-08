@@ -1,0 +1,81 @@
+
+.doctor-info-section{
+    padding: 20px;
+    position: relative;
+}
+
+.doctorprofileimage{
+    height: 400px !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+}
+.doctor-all-info > div{
+    float: right;
+}
+.doc-id{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.Datetime{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.hr-style{
+    color:rgba(128, 128, 128, 0.568) !important;
+}
+.doct-info{
+    position: relative;
+    top: 20px;
+}
+.doctor-duty{
+    display: flex;
+    justify-content: space-between;
+}
+.doctor-duty > div:nth-child(1){
+    background: red;
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.doctor-duty > div:nth-child(2){
+    background: #000;
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.doctor-duty > div:nth-child(3){
+    background: #3065B5;
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.doctor-duty > div:nth-child(4){
+    background: #3065B5;
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.doctor-btn > div{
+    background: #3065B5;
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+/* @media screen and (max-width:1200px){
+    .odion-section{
+        display: none;
+    }
+}
+
+@media screen  and (max-width:1024px){
+    .odion-section{
+        display: block;
+    }
+} */

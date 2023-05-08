@@ -1,0 +1,79 @@
+.form-group{
+    margin:  20px 0px;
+}
+.form-control{
+    padding: 10px;
+    font-size: 14px;
+}
+.btn-book{
+    background: green;
+    color: white;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+.doctor-profile{
+    border: 2px solid #3065B5;
+    width: 200px;
+    border-radius: 10px;
+}
+.doc-name{
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+.spec{
+    color: gray;
+}
+.spec-sub-text{
+    font-size: 13px;
+    color: gray;
+    position: relative;
+    bottom: 20px;
+}
+.appointement-price{
+    position: relative;
+    bottom: 30px;
+
+}
+.appointement-price > span{
+    color: gray;
+}
+.appointement-price > p:nth-child(2){
+    color: gray;
+    font-size: 13px;
+    
+}
+.view-section{
+    position: relative;
+    bottom: 25px;
+}
+.doctor-app{
+    margin: 20px 0px;
+}
+.view-btn{
+    background: #3065B5;
+    border: none;
+    padding: 4px 13px;
+    border-radius: 5px;
+    color: white;
+}
+.card-body{
+    background: #F4F4F5;
+    border-color: #F4F4F5;
+    margin: 10px 0px;
+}
+.icon-section{
+    color:#3065B5 !important;
+    font-size: 40px !important;
+}
+.card-sub-text{
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    font-family: sans-serif;
+}
+.sub-title{
+    font-weight: bold;
+}

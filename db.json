@@ -1,0 +1,160 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "name": "Ojo",
+      "gmail": "joshuaojo@gmail.com",
+      "telephone": "07039398484",
+      "state": "Ondo",
+      "dob": "1994-07-21"
+    },
+    {
+      "id": "3",
+      "name": "channeltracy",
+      "gmail": "channeltracy",
+      "telephone": "0908090099",
+      "state": "Bayelsa",
+      "dob": "2022-12-13"
+    }
+  ],
+  "check": [
+    {
+      "username": "",
+      "password": ""
+    }
+  ],
+  "assets": [
+    {
+      "id": "1",
+      "catergory": "Odion Goodnews",
+      "brandname": "odionosaze564@gmail.com",
+      "prdtype": "08147364485",
+      "price": "Ondo",
+      "purchasedate": "1998-08-21",
+      "expiredate": "1998-08-21",
+      "location": "computer science"
+    },
+    {
+      "id": "2",
+      "catergory": "Device",
+      "brandname": "lenovo",
+      "prdtype": "none",
+      "price": "100000",
+      "purchasedate": "02-10-2022",
+      "expiredate": "none",
+      "location": "computer lab"
+    },
+    {
+      "id": "3",
+      "catergory": "odod",
+      "brandname": "lls",
+      "prdtype": "dd",
+      "price": "l",
+      "purchasedate": "2023-01-19",
+      "expiredate": "2023-01-11",
+      "location": "SLT"
+    },
+    {
+      "id": "wwH_2kH",
+      "catergory": "",
+      "brandname": "",
+      "prdtype": "",
+      "price": "",
+      "purchasedate": "",
+      "expiredate": "",
+      "location": ""
+    },
+    {
+      "id": "2u4q2-G",
+      "catergory": "",
+      "brandname": "",
+      "prdtype": "",
+      "price": "",
+      "purchasedate": "",
+      "expiredate": "",
+      "location": ""
+    },
+    {
+      "id": "6ThjERO",
+      "catergory": "",
+      "brandname": "",
+      "prdtype": "",
+      "price": "",
+      "purchasedate": "",
+      "expiredate": "",
+      "location": ""
+    },
+    {
+      "id": "0jyHx5d",
+      "catergory": "",
+      "brandname": "",
+      "prdtype": "",
+      "price": "",
+      "purchasedate": "",
+      "expiredate": "",
+      "location": ""
+    },
+    {
+      "id": "eD47xeD",
+      "catergory": "",
+      "brandname": "",
+      "prdtype": "",
+      "price": "",
+      "purchasedate": "",
+      "expiredate": "",
+      "location": ""
+    },
+    {
+      "id": "9HmCpo0",
+      "catergory": "",
+      "brandname": "",
+      "prdtype": "",
+      "price": "",
+      "purchasedate": "",
+      "expiredate": "",
+      "location": ""
+    },
+    {
+      "id": "10",
+      "catergory": "Device",
+      "brandname": "Samsung a50",
+      "prdtype": "Samsung",
+      "price": "10000",
+      "purchasedate": "2023-01-15",
+      "expiredate": "2023-01-13",
+      "location": "SLT"
+    },
+    {
+      "id": "r",
+      "catergory": "rrrrrrr",
+      "brandname": "",
+      "prdtype": "rrrrrrrrr",
+      "price": "",
+      "purchasedate": "",
+      "expiredate": "",
+      "location": ""
+    },
+    {
+      "id": "rjr",
+      "catergory": "eie",
+      "brandname": "",
+      "prdtype": "",
+      "price": "",
+      "purchasedate": "",
+      "expiredate": "",
+      "location": ""
+    }
+  ],
+  "testing": [
+    {
+      "id": "1",
+      "name": "Odion Goodnews",
+      "password": "odionosaze564"
+    },
+    {
+      "id": "2",
+      "username": "hj",
+      "password": "jj"
+    }
+  ]
+}

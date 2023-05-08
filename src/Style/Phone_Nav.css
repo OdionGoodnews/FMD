@@ -1,0 +1,22 @@
+
+@media screen and (max-width:1200px) {
+    .minphonenav{
+        position: relative;
+        top: 20px;
+        display: inline-block;
+      }
+      .minphonenav > div{
+          margin: 10px;
+          border: 1px solid rgba(0, 0, 0, 0.171);
+          padding: 10px;
+          cursor: pointer;
+      
+      }
+      .active{
+          background: red !important;
+      }
+}
+.minphonenav{
+    display: none;
+}
+
