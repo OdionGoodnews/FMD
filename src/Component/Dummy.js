@@ -5,7 +5,7 @@ export const Data = [
     {
         id: "4104994847",
         doctorName: "DR. SMITH A",
-        price: "200.00",
+        price: "$200.00",
         Doctoroffice: "Room 202",
         img: image1,
         spec: "Nurse",
@@ -14,7 +14,7 @@ export const Data = [
     {
         id: "404994847",
         doctorName: "DR. SMITH A",
-        price: "200.00",
+        price: "$200.00",
         Doctoroffice: "Room 202",
          img: image2, 
          spec: "Medical Surgeon",
@@ -23,7 +23,7 @@ export const Data = [
     {
         id: "3904994847",
         doctorName: "DR. SMITH A",
-        price: "200.00",
+        price: "$200.00",
         spec: "Cardiothoracic Anesthesia",
         Doctoroffice: "Room 202",
         img: image3,

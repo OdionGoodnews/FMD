@@ -35,9 +35,9 @@ const Appint_Reserved = () => {
               <div className='side-item m-auto jus'>
                <div className='sidebar-item-icon' onClick={e => navigate('/dashboard')}>< AssignmentOutlined/> Appoint Doctor</div> 
                 <div className='sidebar-item-icon active' onClick={e =>navigate("/appoint_reserved")}><BorderColorOutlined/> Appointment Reserved</div>
-                <div className='sidebar-item-icon'>< AssessmentOutlined/> Transaction</div>
+                <div className='sidebar-item-icon' onClick={e =>navigate("/transact")}>< AssessmentOutlined/> Transaction</div>
                 <div className='sidebar-item-icon'>< DashboardOutlined/> Result</div>
-                <div className='sidebar-item-icon'>< SettingsOutlined/> Setting</div>
+                <div className='sidebar-item-icon' onClick={e =>navigate("/Setting")}>< SettingsOutlined/> Setting</div>
               </div>
             </div>
            </div>

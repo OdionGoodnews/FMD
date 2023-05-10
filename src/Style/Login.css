@@ -1,0 +1,58 @@
+.login-sidebar{
+    background: #3065B5;
+    min-height: 100vh;
+}
+.login-sidebar-section{
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+.login-sidebar-section > h4{
+    color:white;
+    font-size: 30px;
+}
+.login-sidebar-section > p{
+    color:white;
+    font-size: 14px;
+}
+.login-sidebar-section > button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.login-section{
+    position: relative;
+    top: 140px;
+}
+.form-group{
+    margin: 15px 0px;
+}
+.btn-login{
+    background: #3065B5;
+    padding: 6px 12px;
+    color:white;
+    border-radius: 5px;
+    border: none;
+}
+.login-input-icon{
+    position: absolute;
+    bottom: 70px;
+    right:0px;
+}
+.main-icon{
+    position: relative !important;
+    right: 20px !important;
+    bottom: 7px !important;
+    font-size: 20px !important;
+}
+.form-control{
+    padding: 10px;
+}
+.loginimage{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}

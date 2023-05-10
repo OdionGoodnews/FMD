@@ -14,7 +14,7 @@
 
 }
 .doctor-profile{
-    border: 2px solid #3065B5;
+    border: 1px solid black;
     width: 200px;
     border-radius: 10px;
 }
@@ -59,7 +59,7 @@
     border-radius: 5px;
     color: white;
 }
-.card-body{
+.card-app{
     background: #F4F4F5;
     border-color: #F4F4F5;
     margin: 10px 0px;
@@ -73,6 +73,13 @@
     position: relative;
     top: 10px;
     font-family: sans-serif;
+}
+.card-sub-text > span{
+    display: block;
+}
+.card-sub-text > span:nth-child(2){
+    display: block;
+    margin-top: 10px;
 }
 .sub-title{
     font-weight: bold;

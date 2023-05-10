@@ -7,14 +7,19 @@ function App() {
   const Home = lazy(() =>import('./Component/Dashboard/Home'))
   const DoctorView = lazy(() =>import('./Component/Dashboard/DoctorView'))
   const Setting = lazy(() =>import('./Component/Setting/Setting'))
+  const Transact = lazy(() =>import('./Component/Dashboard/Transaction/Transact'))
+  const Login = lazy(() =>import('./Component/Layout/Login'));
   return (
     <div className="App">
        <Suspense fallback={<Loading/>}>
           <Routes>
+            <Route path="/" element={<Login/>}/>
             <Route path='/dashboard' element={<Home/>}/>
             <Route path='/appoint_reserved' element={<Appoint_Reserved/>}/>
             <Route path='/View' element={<DoctorView/>}/>
             <Route path='/Setting' element={<Setting/>}/>
+            <Route path='/transact' element={<Transact/>}/>
+            
           </Routes>
        </Suspense>
     </div>

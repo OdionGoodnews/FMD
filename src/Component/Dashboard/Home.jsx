@@ -35,9 +35,9 @@ const Home = () => {
               <div className='side-item m-auto jus' >
                <div className='sidebar-item-icon active' onClick={e => navigate('/dashboard')}>< AssignmentOutlined/> Appoint Doctor</div> 
                 <div className='sidebar-item-icon' onClick={e =>navigate("/appoint_reserved")}><BorderColorOutlined/> Appointment Reserved</div>
-                <div className='sidebar-item-icon'>< AssessmentOutlined/> Transaction</div>
+                <div className='sidebar-item-icon' onClick={e =>navigate("/transact")}>< AssessmentOutlined/> Transaction</div>
                 <div className='sidebar-item-icon'>< DashboardOutlined/> Result</div>
-                <div className='sidebar-item-icon'>< SettingsOutlined/> Setting</div>
+                <div className='sidebar-item-icon' onClick={e =>navigate("/Setting")}>< SettingsOutlined/> Setting</div>
               </div>
             </div>
            </div>
@@ -48,7 +48,7 @@ const Home = () => {
                       <h5>Book Appointment</h5>
                       <p>Follow these instructions: Select your prefer specialist after select the clinical department then, the calendar is going to be enable to select your appointment(the avatar doctor is loading while you select the specialist).</p>
                   </div>
-                  <hr/>
+                  <hr className="hr-style"/>
                   <Doc_appointment/>
               </div>
                 </div>

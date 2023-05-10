@@ -40,7 +40,7 @@ const Setting = (id) => {
               <div className='side-item m-auto jus'>
                <div className='sidebar-item-icon' onClick={e => navigate('/dashboard')}>< AssignmentOutlined/> Appoint Doctor</div> 
                 <div className='sidebar-item-icon' onClick={e =>navigate("/appoint_reserved")}><BorderColorOutlined/> Appointment Reserved</div>
-                <div className='sidebar-item-icon'>< AssessmentOutlined/> Transaction</div>
+                <div className='sidebar-item-icon' onClick={e =>navigate("/transact")}>< AssessmentOutlined/> Transaction</div>
                 <div className='sidebar-item-icon'>< DashboardOutlined/> Result</div>
                 <div className='sidebar-item-icon active' onClick={e =>navigate("/Setting")}>< SettingsOutlined/> Setting</div>
               </div>
@@ -58,14 +58,18 @@ const Setting = (id) => {
                              <div  onClick={e =>setActive("edit")} className={active === "edit" ? "active-setting" :  null}>Edit</div>
                              <div   onClick={e =>setActive("security")} className={active === "security" ? "active-setting" :  null}>Security</div>
                         </div>  
-                        <div className='profile-setting-items'>
+                     </div>                  
+                   </div>
+                  </div>
+
+                  <div className=" card col-md-7 card-setting m-auto py-5">
+                      <div className='card-text'>
+                      <div className='profile-setting-items m-auto'>
                            {active === "profile" && <Profile/>}
                            {active === "edit" && <Edit/>}
                            {active === "security" && (<Security/>)}
                         </div> 
-                     </div>
-                                           
-                   </div>
+                      </div>
                   </div>
 
          

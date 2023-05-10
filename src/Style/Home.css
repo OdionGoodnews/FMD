@@ -87,7 +87,7 @@ body{
     justify-content: space-between;
     overflow-x: hidden;
 }
-.card-body{
+.card-app{
     display: none;
 }
 
@@ -125,4 +125,7 @@ body{
 .active{
     background: black !important;
     padding: 10px;
+}
+.hr-style{
+    color:rgba(128, 128, 128, 0.568) !important;
 }

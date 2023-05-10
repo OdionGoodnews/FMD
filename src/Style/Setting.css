@@ -1,7 +1,7 @@
 .setting-section{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 3px 5px;
     position: relative;
     cursor: pointer;
 }
@@ -13,6 +13,7 @@
     border: 1px solid  #3065B5;
     padding: 5px 10px;
     border-radius: 2px;
+    font-family: sans-serif;
 }
 .setting-section > div:nth-child(2){
     border: 1px solid  #3065B5;
